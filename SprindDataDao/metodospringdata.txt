@@ -1,0 +1,18 @@
+metodo spring data
+
+1/ créer projet maven quicktstart OK
+2/ ajouter dépendance spring framework et spring data OK
+3/ créer interface dao (hérite de jpaRepository) Ok
+4/ créer le fichier xml conteneur, avec les beans OK
+	(ppc,datasource,entitymanagerfactory,transaction manager,jparepository)
+5/ tester la dao dans une classe test et tester create et findby
+
+6/ coder le service dans le conteneur 
+	-mettre en propriété l'interface Springdata
+	-pas oublier getter et setter de l'interface
+7/ déclarer le service dans le conteneur
+ 	-auto cabalage (autowire=bytype car interface) de la dao
+8/ tester le service dans une classe test et tester créerEleve et lireEleve
+	-a: chargement conteneur
+	-b: récupération du bean service
+	-c: manipulation du bean service (ex: lecture d'un élève dont l'id est 1)
