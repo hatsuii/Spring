@@ -1,0 +1,13 @@
+
+
+1/ créer projet maven quicktstart
+2/ ajouter dépendance spring framework
+3/ créer des classes dao service
+4/ créer le fichier xml conteneur
+5/ déclarer classe dao et service dans le conteneur
+ 	(injecter bean dao dans bean service)
+6/ créer classe principale
+7/ dans la methode main(), mettre en oeuvre l'approche dynamique en 3 étapes:	
+	-a: chargement conteneur
+	-b: récupération du bean service
+	-c: manipulation du bean service (ex: lecture d'un élève dont l'id est 1)
